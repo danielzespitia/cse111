@@ -1,0 +1,14 @@
+Date and Time: 2024-03-02 23:36:01.720025
+Phone number: 584120993229
+Width: 205
+Aspect ratio: 60
+Diameter: 15
+Volume: 39.92
+
+Date and Time: 2024-03-02 23:36:30.453221
+Phone number: 58122
+Width: 205
+Aspect ratio: 60
+Diameter: 15
+Volume: 39.92
+
