@@ -1,0 +1,65 @@
+CSE 111 Proposal for a Student Chosen Program
+
+    (This is a proposal. All proposals are written with our best
+    knowledge at the beginning of a project. As we progress from the
+    beginning to the end of a project, we gain more knowledge, and we
+    change some of our proposed ideas. This is part of completing any
+    project and is fine.  However, we still must write a proposal so
+    that our teachers or supervisors know what we intend to do. Please
+    answer each of the following questions to the best of your
+    knowledge.)
+
+1. What is the title of your program?
+
+Fitness Tracker.
+
+2. What real-world problem will your program address or help to solve?
+
+The program will address the problem of tracking and monitoring fitness-related activities 
+such as workouts, calorie intake, and progress towards fitness goals. It will help users 
+keep track of their daily exercise routine, diet, and overall fitness progress.
+
+3. What will you learn from developing this program?
+
+Through the development of this program, I will learn how to handle user input, process 
+and store data, implement calculations for fitness metrics, and create an interactive user 
+interface. Additionally, I will gain a deeper understanding of modular programming, testing 
+methodologies, and practical application of Python concepts.
+
+4. What Python modules will your program use?
+
+    (Some examples are: csv, datetime, functools, matplotlib, math,
+    pandas, pytest, random, requests, and tkinter.)
+
+- datetime for tracking dates and times related to workouts and progress updates.
+- csv for reading and writing data to CSV files for data storage.
+- matplotlib for visualizing fitness progress through graphs and charts.
+- tkinter for creating a graphical user interface (GUI) to interact with the program.
+
+
+5. List the names of functions you will need?
+
+    (Remember that the most reusable functions don't get user input and
+    don't print results but instead have parameters and return a result.
+    Functions that get user input and print results are important and do
+    useful work but are not easily reusable.)
+
+    (Remember also that it's hard to test functions that get user input
+    and print results. It's easy to test functions that don't get user
+    input and don't print results but instead have parameters and return
+    a result. Therefore, you should write most of your program functions
+    to have parameters and return a result.)
+
+- calculate_bmi(weight, height): Calculates the Body Mass Index (BMI) based on weight and height inputs.
+- calculate_calorie_intake(age, gender, weight, height, activity_level): Calculates the recommended daily calorie intake based on user information and activity level.
+- record_workout(workout_type, duration): Records a workout in the user's fitness log, including the type of workout and its duration.
+- `track_progress(): Displays the user's fitness progress, including BMI, calorie intake, and workout history.
+- save_data_to_csv(file_path, data): Saves the user's fitness data to a CSV file for future reference and analysis.
+
+6. List the names of the test functions you will write.
+
+- test_calculate_bmi(): Tests the calculate_bmi() function to ensure it returns the correct BMI value for different inputs.
+- test_calculate_calorie_intake(): Tests the calculate_calorie_intake() function to verify it calculates the correct daily calorie intake based on user information and activity level.
+- test_record_workout(): Tests the record_workout() function to check if it properly records workouts in the fitness log.
+- test_save_data_to_csv(): Tests the save_data_to_csv() function to ensure it correctly saves fitness data to a CSV file.
+- test_track_progress(): Tests the track_progress() function to verify that it displays the user's fitness progress accurately.
